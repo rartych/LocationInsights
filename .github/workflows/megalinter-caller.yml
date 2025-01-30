@@ -24,4 +24,4 @@ permissions:
 
 jobs:
   megalinter:
-    uses: xCAMARA/config/linting/mega-linter.yaml@main
+    uses: rartych/xCAMARA/config/linting/mega-linter.yaml@main
