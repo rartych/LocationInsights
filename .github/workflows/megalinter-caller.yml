@@ -1,4 +1,4 @@
-name: megaLinter Caller
+`name: megaLinter Caller
 
 on: 
   workflow_dispatch:
@@ -24,4 +24,4 @@ permissions:
 
 jobs:
   megalinter:
-    uses: rartych/xCAMARA/config/linting/mega-linter.yaml@main
+    uses: rartych/xCAMARA/.github/workflows/mega-linter.yml@main
