@@ -1,4 +1,4 @@
-name: megaLinter Caller
+name: MegaLinter Caller
 
 on: 
   workflow_dispatch:
