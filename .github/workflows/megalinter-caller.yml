@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
 env:
-  branch: main
+  branch_name: main
   
   # Pull Requests to main
   pull_request:
@@ -27,6 +27,6 @@ permissions:
 
 jobs:
   megalinter:
-    uses: rartych/xCAMARA/.github/workflows/mega-linter.yml@$branch
+    uses: rartych/xCAMARA/.github/workflows/mega-linter.yml@$branch_name
     with:
-      branch: $branch
+      branch: $branch_name
