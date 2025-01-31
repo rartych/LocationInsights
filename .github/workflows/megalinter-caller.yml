@@ -27,4 +27,4 @@ jobs:
   megalinter:
     uses: rartych/xCAMARA/.github/workflows/mega-linter.yml@main
     with:
-      branch: ${{ env.branch_name}}
+      branch: main
