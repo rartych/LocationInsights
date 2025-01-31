@@ -25,6 +25,6 @@ permissions:
 
 jobs:
   megalinter:
-    uses: rartych/xCAMARA/.github/workflows/mega-linter.yml@$main
+    uses: rartych/xCAMARA/.github/workflows/mega-linter.yml@main
     with:
       branch: $branch_name
