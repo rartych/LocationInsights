@@ -1,4 +1,4 @@
-name: Caller
+name: Caller for MegaLinter
 
 on: 
   workflow_dispatch:
@@ -26,6 +26,6 @@ permissions:
 
 jobs:
   megalinter:
-    uses: rartych/xCAMARA/.github/workflows/config.yml@main
-    with:
-      ref: v2
+    uses: rartych/xCAMARA/.github/workflows/megalinter.yml@main
+    # with:
+    #   ref: v2
