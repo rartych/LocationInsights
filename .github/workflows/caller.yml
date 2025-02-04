@@ -28,4 +28,4 @@ jobs:
   megalinter:
     uses: rartych/xCAMARA/.github/workflows/config.yml@main
     with:
-      ref: ${{ env.branch_name }}
+      ref: v2
