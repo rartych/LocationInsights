@@ -22,6 +22,6 @@ permissions:
 
 jobs:
   megalinter:
-    uses: rartych/xCAMARA/.github/workflows/megalinter.yml@main
+    uses: rartych/xCAMARA-tooling/.github/workflows/megalinter.yml@main
     # with:
     #   ref: v2
